@@ -1,0 +1,33 @@
+---
+title: games.game_center_game_list
+sidebar_position: 11
+---
+
+> Generated from `spec/protocol.yaml`. Do not edit by hand.
+
+## Overview
+
+- **ID**: `222`
+- **Header**: `GAME_CENTER_GAME_LIST`
+- **Direction**: Server to Client (`s2c`)
+- **Realm**: Games & Entertainment
+- **Phase**: `session`
+- **Since**: `nitro-1.6.6`
+- **Summary**: Game center game list
+
+## Payload fields
+
+No payload fields (header-only packet).
+
+## Behavior
+
+### Sender
+The server sends this message to inform the client about game center game list state.
+
+
+### Receiver
+The client processes the received data and updates its local state accordingly.
+
+## Notes
+
+- No additional notes
